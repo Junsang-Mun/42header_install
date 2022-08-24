@@ -8,3 +8,4 @@ echo alias gccw='gcc -Werror -Wextra -Wall' >> ~/.zshrc
 source ~/.zshrc
 
 echo "별칭 등록이 완료되었습니다."
+echo "이후 반드시 exec zsh 명령을 실행해서 zsh를 재실행해주세요."
