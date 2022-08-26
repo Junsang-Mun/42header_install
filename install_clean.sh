@@ -7,7 +7,7 @@ mkdir -p .script
 cd .script
 curl -s https://github.com/Junsang-Mun/42seoul_script/blob/main/clean.sh --output clean.sh
 
-echo "alias clean='bash ~/.script/clean.sh" >> ~/.zshrc
+echo "alias clean='bash ~/.script/clean.sh'" >> ~/.zshrc
 source ~/.zshrc
 
 echo "설치가 완료되었습니다. 'zsh' 명령어를 입력해 zsh를 재시동해주세요."
