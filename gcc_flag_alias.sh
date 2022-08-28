@@ -5,7 +5,7 @@ echo "gccw를 실행하면 gcc -Werror -Wextra -Wall 과 동일하게 작동합�
 
 echo '' >> ~/.zshrc
 echo '# gccw 별칭 설정: gcc -Werror -Wextra -Wall' >> ~/.zshrc
-echo alias gccw='gcc -Werror -Wextra -Wall' >> ~/.zshrc
+echo "alias gccw='gcc -Werror -Wextra -Wall'" >> ~/.zshrc
 
 source ~/.zshrc
 
